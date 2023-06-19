@@ -1,0 +1,11 @@
+set.seed(123)
+m<-matrix(runif(12),nrow=3,ncol=4,byrow=TRUE)
+colnames(m)<-c("uno","dos","tres","cuatro")
+rownames(m)<-c("x","y","z")
+print(m)
+m_scaled<-m*10
+print(m_scaled)
+m_new<-m[1:2,]
+print(m_new)
+vec_uno<-m[,"uno"]
+print(vec_uno)

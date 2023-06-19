@@ -1,0 +1,12 @@
+weight<-c(71,67,83,67)
+height<-c(1.75,1.81,1.78,1.82,1.97,2.12,1.75)
+bmi<-weight/height^2
+print(bmi)
+age<-seq(from=2,to=30,by=2)
+print(age)
+adult<-c(age)
+print(adult[age>=20])
+weight_adult<-weight[adult]
+height_adult<-height[adult]
+bmi_adult<-bmi[adult]
+print(bmi_adult)
